@@ -1,0 +1,58 @@
+body,
+ul,
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 76px;;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header{
+    background-color: #1e1d20;
+    padding: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.menu{
+    display: flex;
+    /* padding: 20px;
+    margin: 10px;*/
+} 
+
+.menu li a{
+    padding: 15px;
+    margin-left: 10px;
+    /* background-color: aqua; */
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin:10px;
+
+}
